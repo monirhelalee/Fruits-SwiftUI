@@ -9,18 +9,30 @@ import SwiftUI
 
 struct StartButtonView: View {
     // MARK: - Properties
+
     // MARK: - Body
+
     var body: some View {
-        Button(action:{
+        Button(action: {
             print("Exit the onboarding")
-        }){
-            Text("Start")
-        }//: Button
+        }) {
+            HStack(spacing: 8) {
+                Text("Start")
+                Image(systemName: "arrow.right.circle")
+                    .imageScale(.large)
+            } //: HSatck
+            .padding(.horizontal, 16)
+            .padding(.vertical, 10)
+            .background(Capsule().strokeBorder(.white,lineWidth: 1.25))
+        } //: Button
+        .accentColor(.white)
     }
 }
+
 // MARK: Preview
+
 #Preview {
     StartButtonView()
-        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/ .dark/*@END_MENU_TOKEN@*/)
         .previewLayout(.sizeThatFits)
 }
