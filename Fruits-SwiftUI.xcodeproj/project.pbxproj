@@ -11,6 +11,7 @@
 		EC2C2EE62C0109C600002DA3 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C2EE52C0109C600002DA3 /* StartButtonView.swift */; };
 		EC2C2EE82C010E4300002DA3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C2EE72C010E4300002DA3 /* OnboardingView.swift */; };
 		EC2C2EEB2C038E5E00002DA3 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C2EEA2C038E5E00002DA3 /* FruitModel.swift */; };
+		EC2C2EEE2C03900400002DA3 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C2EED2C03900400002DA3 /* FruitData.swift */; };
 		ECB9ACB62BFE71C300F172A3 /* Fruits_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9ACB52BFE71C300F172A3 /* Fruits_SwiftUIApp.swift */; };
 		ECB9ACB82BFE71C300F172A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9ACB72BFE71C300F172A3 /* ContentView.swift */; };
 		ECB9ACBA2BFE71C500F172A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB9ACB92BFE71C500F172A3 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		EC2C2EE52C0109C600002DA3 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		EC2C2EE72C010E4300002DA3 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		EC2C2EEA2C038E5E00002DA3 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		EC2C2EED2C03900400002DA3 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		ECB9ACB22BFE71C300F172A3 /* Fruits-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruits-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB9ACB52BFE71C300F172A3 /* Fruits_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruits_SwiftUIApp.swift; sourceTree = "<group>"; };
 		ECB9ACB72BFE71C300F172A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		EC2C2EEC2C038FE500002DA3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EC2C2EED2C03900400002DA3 /* FruitData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		ECB9ACA92BFE71C300F172A3 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 		ECB9ACB42BFE71C300F172A3 /* Fruits-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				EC2C2EEC2C038FE500002DA3 /* Data */,
 				EC2C2EE92C038E3100002DA3 /* Model */,
 				EC2C2EE22C01027700002DA3 /* View */,
 				EC2C2EE12C0101EE00002DA3 /* App */,
@@ -173,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2C2EEE2C03900400002DA3 /* FruitData.swift in Sources */,
 				EC2C2EE42C0102C300002DA3 /* FruitCardView.swift in Sources */,
 				EC2C2EE62C0109C600002DA3 /* StartButtonView.swift in Sources */,
 				ECB9ACB82BFE71C300F172A3 /* ContentView.swift in Sources */,
