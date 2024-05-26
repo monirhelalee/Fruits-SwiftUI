@@ -9,20 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     // MARK: - Properties
-    
+
     var fruits: [Fruit] = fruitsData
 
     // MARK: - Body
 
     var body: some View {
-        NavigationView{
-            List{
-                ForEach(fruits.shuffled()){ item in
-                   FruitRowView(fruit: item)
-                        .padding(.vertical, 4)
+        NavigationView {
+            List {
+                ForEach(fruits.shuffled()) { item in
+                    NavigationLink(destination: FruitDetailView(fruit: item)) {
+                        FruitRowView(fruit: item)
+                            .padding(.vertical, 4)
+                    } //: NavigationLink
                 }
-            }//:List
-            .navigationTitle("Fruits")
+            } //: List
+            .navigationTitle("Fruits List")
         } //: Navigationß
     }
 }
