@@ -21,6 +21,7 @@
 		ECB9ACB82BFE71C300F172A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9ACB72BFE71C300F172A3 /* ContentView.swift */; };
 		ECB9ACBA2BFE71C500F172A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB9ACB92BFE71C500F172A3 /* Assets.xcassets */; };
 		ECB9ACBD2BFE71C500F172A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB9ACBC2BFE71C500F172A3 /* Preview Assets.xcassets */; };
+		ECD739F42C050AB300E11100 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD739F32C050AB200E11100 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		ECB9ACB72BFE71C300F172A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECB9ACB92BFE71C500F172A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB9ACBC2BFE71C500F172A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECD739F32C050AB200E11100 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		EC2C2EE12C0101EE00002DA3 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				ECD739F32C050AB200E11100 /* SettingsView.swift */,
 				ECB9ACB52BFE71C300F172A3 /* Fruits_SwiftUIApp.swift */,
 				ECB9ACB72BFE71C300F172A3 /* ContentView.swift */,
 				EC2C2EE72C010E4300002DA3 /* OnboardingView.swift */,
@@ -211,6 +214,7 @@
 				EC2C2EE82C010E4300002DA3 /* OnboardingView.swift in Sources */,
 				EC2C2EEB2C038E5E00002DA3 /* FruitModel.swift in Sources */,
 				ECB9ACB62BFE71C300F172A3 /* Fruits_SwiftUIApp.swift in Sources */,
+				ECD739F42C050AB300E11100 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
