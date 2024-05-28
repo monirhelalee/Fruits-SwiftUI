@@ -23,6 +23,7 @@
 		ECB9ACBD2BFE71C500F172A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB9ACBC2BFE71C500F172A3 /* Preview Assets.xcassets */; };
 		ECD739F42C050AB300E11100 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD739F32C050AB200E11100 /* SettingsView.swift */; };
 		ECD739F62C064B2D00E11100 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD739F52C064B2D00E11100 /* SettingsLabelView.swift */; };
+		ECD739F82C0651C300E11100 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD739F72C0651C300E11100 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		ECB9ACBC2BFE71C500F172A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ECD739F32C050AB200E11100 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		ECD739F52C064B2D00E11100 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		ECD739F72C0651C300E11100 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				EC2C2EF52C03BA6300002DA3 /* SourceLinkView.swift */,
 				EC2C2EF72C04946A00002DA3 /* FruitNutrientsView.swift */,
 				ECD739F52C064B2D00E11100 /* SettingsLabelView.swift */,
+				ECD739F72C0651C300E11100 /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				EC2C2EEE2C03900400002DA3 /* FruitData.swift in Sources */,
 				EC2C2EF62C03BA6300002DA3 /* SourceLinkView.swift in Sources */,
+				ECD739F82C0651C300E11100 /* SettingsRowView.swift in Sources */,
 				EC2C2EE42C0102C300002DA3 /* FruitCardView.swift in Sources */,
 				EC2C2EF02C039A7700002DA3 /* FruitRowView.swift in Sources */,
 				EC2C2EF82C04946A00002DA3 /* FruitNutrientsView.swift in Sources */,
