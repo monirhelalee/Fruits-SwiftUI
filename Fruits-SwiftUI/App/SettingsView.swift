@@ -42,8 +42,12 @@ struct SettingsView: View {
                     // MARK: - Section 3
 
                     GroupBox(label: SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")) {
-                        Divider().padding(.vertical, 4)
-                        
+                        SettingsRowView(name: "Developer",content: "Monir Haider")
+                        SettingsRowView(name: "Compatibility",content: "iOS")
+                        SettingsRowView(name: "Website",linkLabel: "Developer portfolio" , linkDestination: "monirdev.com")
+                        SettingsRowView(name: "X",linkLabel: "@monirhelalee" , linkDestination: "x.com/monirhelalee")
+                        SettingsRowView(name: "Github",linkLabel: "monirhelalee" , linkDestination: "github.com.com/monirhelalee")
+                        SettingsRowView(name: "Version",content: "1.1.0")
                     }
                 } //: VStack
                 .navigationBarTitle(Text("Settings"), displayMode: .large)

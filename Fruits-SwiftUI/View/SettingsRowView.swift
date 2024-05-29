@@ -17,16 +17,19 @@ struct SettingsRowView: View {
     // MARK: - Body
 
     var body: some View {
-        HStack{
-            Text(name).foregroundColor(.gray)
-            Spacer()
-            if (content != nil) {
-                Text(content!)
-            } else if(linkLabel != nil && linkDestination != nil){
-                Link(linkLabel!,destination: URL(string: "https://\(linkDestination!)")!)
-                Image(systemName: "arrow.up.right.square").foregroundColor(.pink)
-            } else {
-                /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
+        VStack {
+            Divider().padding(.vertical, 4)
+            HStack{
+                Text(name).foregroundColor(.gray)
+                Spacer()
+                if (content != nil) {
+                    Text(content!)
+                } else if(linkLabel != nil && linkDestination != nil){
+                    Link(linkLabel!,destination: URL(string: "https://\(linkDestination!)")!)
+                    Image(systemName: "arrow.up.right.square").foregroundColor(.pink)
+                } else {
+                    /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
+                }
             }
         }
     }
